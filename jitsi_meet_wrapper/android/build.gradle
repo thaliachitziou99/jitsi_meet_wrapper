@@ -32,7 +32,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     // Required by jitsi
     compileOptions {
@@ -50,7 +50,8 @@ android {
 
     defaultConfig {
         // Required by jitsi
-        minSdkVersion 24
+        minSdkVersion 26
+        targetSdkVersion 34
     }
 }
 
